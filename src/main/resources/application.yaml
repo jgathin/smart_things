@@ -1,0 +1,17 @@
+smartthings:
+  clientId: ${ST_CLIENT_ID}
+  clientSecret: ${ST_CLIENT_SECRET}
+  redirectUri: https://oauth.bighomiejg.com/oauth/callback
+  authorizeUrl: https://auth-global.api.smartthings.com/oauth/authorize
+  tokenUrl: https://auth-global.api.smartthings.com/oauth/token
+  apiBase: https://api.smarthings.com/v1
+
+server:
+  port: 8081
+
+spring:
+  rabbitmq:
+    host: 10.0.0.140
+    port: 5672
+    username: guest
+    password: guest
