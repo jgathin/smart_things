@@ -5,6 +5,8 @@ smartthings:
   authorizeUrl: https://auth-global.api.smartthings.com/oauth/authorize
   tokenUrl: https://auth-global.api.smartthings.com/oauth/token
   apiBase: https://api.smarthings.com/v1
+  authBase: https://auth-global.api.smartthings.com/oauth
+  scopes: offline_access devices:commands devices:read
 
 server:
   port: 8081
